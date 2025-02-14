@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %} 
+<section class="section">
+  <div class="center bg-color">
+  <div class="background">
+            <p>Escolha entre ver posts ou estudar tecnologia:</p>
+            <ul>
+              <li>
+                <a href="{% url 'computer' %}" class="a2">{computer/world}</a>
+                <p>Veja a plataforma de aprendizado sobre tecnologia</p>
+              </li>
+              <li>
+                  <a href="{% url 'login' %}" class="a2">OverTech</a>
+                <p>Veja a rede social sobre tecnologia</p>
+              </li>
+            </ul>
+          </div>
+          </div>
+</section>
+{% endblock %}

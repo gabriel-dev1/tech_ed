@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<header>
+    <h1 class="a2">OverTech</h1>
+</header>
+<section>
+    <h2>Login</h2>
+    <form action="{% url 'login' %}" method="POST">
+        {% csrf_token %}
+        <div class="teste">
+            {% for field in form.visible_fields %}
+               {{field.label}}
+               {{field}}
+            {% endfor %}
+        </div>
+        <div>
+            <button class="btn" type="submit">Confirmar</button>
+        </div>
+    </form>
+    <a href="{% url 'register' %}">Ainda não tem uma conta?</a>
+    <a class="a_teste" href="{% url 'index' %}">Voltar</a>
+</section>
+{% endblock %}

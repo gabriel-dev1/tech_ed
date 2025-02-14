@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %} 
+
+{% block content %}
+<section>
+    <h1>Register</h1>
+    <form action="{% url 'register' %}" method="POST">
+        {% csrf_token %}
+        <div class="teste">
+            {% for field in form.visible_fields %}
+                {{field.label}}
+                {{field}}
+            {% endfor %}
+        </div>
+        <div>
+            <button class="btn" type="submit">Confirmar</button>
+        </div>
+        </form>
+    <a href="{% url 'login' %}">Voltar</a>
+</section>
+{% endblock %}
