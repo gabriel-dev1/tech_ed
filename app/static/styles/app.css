@@ -1,0 +1,136 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.bg-color {
+    background-color: dimgrey;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.a2 {
+    font-family: 'Barlow Semi Condensed', serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.form-control {
+    display: flex;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
+
+.teste {
+    margin-top: 100px;
+}
+
+.a_teste {
+    padding-left: 4px;
+    border-left: 2px solid #6a6868;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    background-color: darkslateblue;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    background-color: rgb(85, 74, 155);
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color:darkgray;
+}
+
+header {
+    color: #ffff;
+    background-color:rgb(54, 54, 54);
+    padding: 20px;
+    color:rgb(192, 189, 189);
+}
+
+h2 {
+    padding: 16px;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px;
+}
+
+.section {
+    margin-top: 80px;
+}
+
+.sectionImage2 {
+    background-image: url('../images/teste.webp');
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sectionImage {
+    background-image: url('../images/circuit.webp');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background {
+    background-color: rgba(0,0,0,0.5);
+    padding: 90px;
+}
+
+.card {
+    border-radius: 20px;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+a {
+    color: #fff;
+    font-weight: bold;
+}
+
+p {
+    margin: 25px 20px 25px 20px;
+}
+
+.info {
+    background-color: rgb(54, 54, 54);
+    border-radius: 20px;
+    margin: 16px;
+    padding: 20px;
+}
